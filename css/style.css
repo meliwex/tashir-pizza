@@ -1,0 +1,605 @@
+/*setting*/
+body{
+	font-family: "Roboto Slab";
+}
+
+img{
+	max-width: 100%;
+}
+
+.btn{
+	background: #ff0000;
+	border: none;
+	font-weight: bold;
+	}.btn:hover{
+		background: #e90505;
+	}
+
+	.section__title{
+		font-size: 48px;
+		font-weight: bold;
+		padding-bottom: 30px;
+	}
+
+
+
+
+
+
+	/*header*/
+	header{
+		background: url(../img/tekstura_dereva.jpg) no-repeat;
+		background-position: center;
+	}
+
+	header .header__opacity{
+		background: #e2aa78;
+		background: rgba(226, 170, 120, 0.7);
+		box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	}
+
+	header img{
+		max-width: 100%;
+	}
+
+	header .navbar-brand img{
+		max-width: 35%;
+	}
+
+	header nav{
+		padding: 0 !important;
+	}
+
+	.navbar-nav{
+		margin: auto;
+		margin-right: 40px;
+	}
+
+	.navbar-nav .nav-item a{
+		color: #514635;
+		font-family: "Roboto Slab";
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 20px;
+		padding: 5px 20px;
+		transition: 0.3s;
+		padding: 20px 20px;
+	}
+	.navbar-nav .nav-item a:hover{
+		color: white;
+	}
+
+	.navbar-nav .nav-item:hover{
+		background: #bc7f47;
+
+	}
+
+	.navbar-nav .active{
+		background: #bc7f47;
+		color: white;
+	}
+	.navbar-nav .active a{
+		color: white;
+	}
+
+	.navbar-toggler{
+		border: 3px solid black;
+	}
+
+
+	.right{
+		margin-top: -7px;
+		margin-left: -120px;
+	}
+
+	.right .reg a{
+		font-size: 20px;
+		font-weight: bold;
+		color: #6e3d2f;
+	}
+
+	.right .karzina{
+		background: #ff0000;
+		text-align: left;
+		color: white;
+		padding: 10px 14px;
+		border-radius: 60px;
+		display: inline-block;
+		margin-right: 8px;
+		padding-top: 10px;
+		margin-top: 5px;
+		position: relative;
+	}
+
+	.right .karzina i{
+		color: white;
+	}
+	.right .karzina i:hover{
+		color: yellow;
+	}
+
+	.right .karzina .value{
+		position: absolute;
+		top: -6px;
+		right: 0px;
+		background: #7f4c25;
+		padding: 0px 6px;
+		border-radius: 150px;
+		font-size: 13px;
+	}
+
+
+
+
+
+
+
+
+
+
+	/*main*/
+	.main{
+		background: url(../img/pizza_main.jpg) no-repeat;
+		background-position: center top;
+		color: white;
+		max-width: 100%;
+   		background-size: cover;
+	}
+
+	.main .main__opacity{
+
+		background: rgba(73, 45, 19, 0.9);
+		box-shadow: 0 0 10px rgba(0,0,0,0.6)
+		padding: 120px 0;
+		padding: 120px 0;
+
+		padding-bottom: 60px;
+	}
+
+	.main .main__title{
+		font-size: 74px;
+		text-align: center;
+		font-weight: bold;
+		line-height: 0.7;
+		padding-bottom: 60px;
+	}
+	.main .main__title span{
+		font-size: 31px;
+	}
+
+
+	.main img{
+		max-width: 100%;
+		border: 7px solid #7f592c;
+		border-radius: 10px;
+	}
+
+	.main__card h3{
+		text-align: center;
+		font-weight: bold;
+		font-size: 24px;
+		padding-top: 10px;
+	}
+
+	.main .btn__a{
+		display: flex;
+		justify-content: center;
+		margin: 80px 0;
+		text-decoration: none;
+	}
+	.main .btn{
+		padding: 15px 35px;
+		font-size: 21px;
+		letter-spacing: 2px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	/*история пиццы*/
+	.istoris{
+		background: url(../img/tekstura_dereva.jpg) no-repeat;
+		background-position: top;
+		color: black;
+	}
+
+	.istoris__opacity{
+		background: rgba(226, 170, 100, 0.8);
+		box-shadow: 0 0 10px rgba(0,0,0,0.5)
+		padding: 120px 0;
+		padding: 80px 0;
+	}
+
+	.istoris img{
+		max-width: 100%;
+		box-shadow: 0px 0px 14px rgba(0,0,0,0.9)
+	}
+
+	.istoris .more{
+		text-align: right;
+		font-weight: bold;
+		margin-top: -20px;
+		margin-right: 50px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	/*menu*/
+	.menu{
+		background: #f1f1f1;
+		padding: 90px 0;
+	}
+
+	.menu img{
+		max-width: 100%;
+	}
+
+	.menu i.fas{
+		font-size: 17px;
+	}
+
+	.menu .menu__card{
+		background: white;
+		border-radius: 6px;
+		overflow: hidden;
+		box-shadow: 0 0 11px rgba(0,0,0,0.5);
+		margin-bottom: 35px;
+	}
+
+	.menu__card__text{
+		padding-top: 10px;
+		padding-bottom: 22px;
+		padding-left: 35px;
+	}
+
+	.menu__card__text h5{
+		font-weight: bold;
+		padding-top: 10px;
+		margin-bottom: 3px;
+	}
+	.menu__card__text .price{
+		font-size: 21px;
+	}
+
+	.menu__card__text .btn{
+		padding: 10px 20px;
+		font-size: 17px;
+		margin-top: 20px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*доставка*/
+	.delivery{
+		padding: 80px 0;
+		background: url(../img/GfCF6F8zDn.jpg);
+		color: white;
+	}
+
+	.delivery img{
+		max-width: 80%;
+	}
+
+	.red{
+		color: #ff0000;
+	}
+	.green{
+		color: #22d737;
+	}
+
+	.delivery h3{
+		font-size: 24px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.delivery h3:nth-child(1){
+		padding-bottom: 30px;
+	}
+
+	.delivery .btn{
+		padding: 15px 30px;
+		margin-top: 25px;
+	}
+
+	.delivery i{
+		font-size: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	/*карта*/
+	.map{
+		padding: 90px 0;
+		background: #f0f0f0;
+	}
+
+	.map iframe{
+		max-width: 100%;
+		height: auto;
+		height: 400px;
+	}
+
+	.map__card{
+		background: white;
+		box-shadow: 0 0 6px rgba(0,0,0,0.5);
+		text-align: center;
+		border-radius: 4px;
+		padding: 45px 20px;
+		margin: 30px 0;
+	}
+
+	.map__card .question{
+		font-size: 22px;
+		font-weight: bold;
+		line-height: 0.9;
+		padding-bottom: 40px;
+	}
+
+	.map__card .question span{
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+	.map__card input{
+		height: 45px;
+		box-shadow: none !important;
+	}
+	.map__card input:focus{
+		border: 1px solid yellow;
+	}
+
+	.map__card .btn{
+		width: 100%;
+		padding-top: 15px ;
+		padding-bottom: 15px;
+		text-transform: uppercase;
+		margin-top: 15px;
+	}
+
+	.input-group{
+		padding-bottom: 7px;
+	}
+
+
+
+
+
+
+
+
+
+
+	/*footer*/
+	footer{
+		padding: 10px 0;
+		background: url(../img/GfCF6F8zDn.jpg);
+		color: white;
+	}
+
+	.prava,h4,.phone{
+		padding-top: 10px;
+	}
+
+	.prava{
+		font-weight: bold;
+		font-size: 13px;
+		color: #848484;
+		text-transform: uppercase;
+	}
+
+	footer h4{
+		font-size: 13px;
+		text-transform: uppercase;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+	}
+
+	footer .btn{
+		background: none;
+		border: 2px solid white;
+		color: white;
+		padding: 4px 20px;
+
+	}
+
+	footer .btn:Hover{
+		border: 2px solid red;
+
+	}
+
+
+	.phone{
+		font-size: 17px;
+		font-weight: bold;
+		padding: 5px 0;
+		text-align: right;
+	}
+
+	.phone span{
+		color: red;
+	}
+
+
+
+
+
+
+
+
+
+
+	@media screen and (max-width: 1200px) {
+		footer .phone{
+			font-size: 15px;
+		}
+	}
+
+	@media screen and (max-width: 992px) {
+		.nav-item{
+			padding: 15px 0;
+			margin: 10px 0;
+		}
+
+		header .header__opacity{
+			padding-bottom: 15px;
+		}
+
+		header .right{
+			margin: 0;
+			margin-left: 170px;
+		}
+
+
+		.main h1{
+			font-size: 24px ;
+		}
+
+		.istoris img{
+			margin-top: 50px;
+
+		}
+
+
+		.menu .row .col-md-4{
+			min-width: 50%;
+		}
+	
+		.delivery h3{
+			font-size: 20px;
+		}
+
+		.delivery img{
+			height: auto;
+		}
+
+		
+
+
+		.map iframe{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+
+
+		footer .btn{
+			margin-top: 5px;
+		}
+
+		footer .phone{
+			padding-top: 11px;
+			font-size: 17px;
+		}
+}
+
+
+@media screen and (max-width: 768px) {
+	header .right{
+		margin: 0;
+	}
+
+	.main .main__title{
+		font-size: 55px;
+		line-height: 0.7;
+	}
+	.main .main__title span{
+		font-size: 22px;
+	}
+
+	.main .main__card{
+		margin-bottom: 50px;
+	}
+
+
+	.delivery__img{
+		margin-top: 55px;
+	}
+
+
+	.delivery h3{
+			font-size: 18px;
+		}
+	
+	.delivery .btn{
+	}
+
+	.delivery .offset-1{
+	}
+	.delivery .row{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+
+
+
+	@media screen and (max-width: 576px){
+
+		.main .main__title{
+			font-size: 45px;
+			line-height: 0.9;
+		}
+		.main .main__title span{
+			font-size: 18px;
+		}
+
+		footer .phone{
+			text-align: right;
+		}
+		
+		footer .btn{
+			margin-right: auto;
+		}
+
+		footer .offset-1{
+			margin: 0;
+		}
+
+
+		header .right{
+			margin-left: -150px;
+		}
+
+		header .navbar-toggler{
+			margin-left: auto;
+			margin-top: 10px;
+		
+	}
